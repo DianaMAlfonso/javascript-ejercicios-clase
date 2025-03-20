@@ -1,4 +1,4 @@
-// decarar variabe
+// declarar variable
 var a;
 let b;
 const c = - 10;
@@ -11,16 +11,23 @@ var nombre = "Diana";
 //imprimir
 console.log("Hola " + nombre + " ¿Como estás?");
 
+//suma
 var num1 = 5;
 var num2 = 10;
 var resultado = num1 + num2;
 console.log(resultado);
 
+//resta
 var resultador = num1 - num2;
 console.log(resultador);
 
+//multiplicación
 var resultadom = num1 * num2;
 console.log(resultadom);
+
+//dividir
+var cociente = num1 / num2;
+console.log(cociente);
 
 //reasignar variables
 var a = 10;
@@ -88,4 +95,27 @@ if (num7%2===0) {
     console.log("Numero impar");
 }
 
+//verificar si es menor de edad, adulto y adulto mayor
+let edad = 6;
+
+if (edad < 18) {
+    console.log("La persona es menor de edad");
+} else if(edad <60){
+        console.log("La persona es adulto");
+} else {
+        console.log("La persona es adulto mayor");
+}
+
+let lado1 = 3;
+let lado2 = 32;
+let lado3 = 9;
+
+if(lado1 === lado2 && lado2 === lado3){
+    console.log("El triángulo es Equilatero");
+} else if(lado1 === lado2 || lado2 === lado3 || lado1 === lado3){
+    console.log("El triangulo es Isóceles");    
+}
+    else{
+    console.log("El triangulo es escaleno");
+}    
 
